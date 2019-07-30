@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "name": "cordova-plugin-assistboxredirection",
+  "cordova_name": "AssistBoxRedirection",
+  "description": "Redirect from AssistBoxLib to Host App",
+  "license": "MIT",
+  "platforms": [
+    "ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "cordova": {
+    "id": "cordova-plugin-assistboxredirection",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "nayah",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "http://assistbox.io"
+}
