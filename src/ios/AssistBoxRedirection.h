@@ -1,6 +1,6 @@
-#import <AST.h>
-#import <ASTPlugin.h>
+#import <CDV.h>
+#import <CDVPlugin.h>
 
-@interface AssistBoxRedirection : ASTPlugin
-- (void)goBackToMainApplication:(ASTInvokedUrlCommand*)command;
+@interface AssistBoxRedirection : CDVPlugin
+- (void)goBackToMainApplication:(CDVInvokedUrlCommand*)command;
 @end

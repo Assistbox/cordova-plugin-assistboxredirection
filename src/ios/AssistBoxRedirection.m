@@ -8,7 +8,7 @@
     
 }
 
-- (void)goBackToMainApplication:(ASTInvokedUrlCommand*)command
+- (void)goBackToMainApplication:(CDVInvokedUrlCommand*)command
 {
     UIWindow *window = [[UIApplication sharedApplication] keyWindow];
     UINavigationController* navController = (UINavigationController*)window.rootViewController;
