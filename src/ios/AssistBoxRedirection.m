@@ -12,7 +12,7 @@
 {
     UIWindow *window = [[UIApplication sharedApplication] keyWindow];
     UINavigationController* navController = (UINavigationController*)window.rootViewController;
-    [navController popViewControllerAnimated:YES];
+    [navController dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end
